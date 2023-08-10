@@ -1,0 +1,59 @@
+.navbar{
+    display: flex;
+    justify-content: end;
+    padding: 6px;
+    background-color: #202124;
+    color: #FFFFFF;
+}
+
+    .navbarcontent{
+        display: flex;
+        justify-content: end;
+        align-items: center;
+        width: 260.83px;
+        height: 48px;
+        padding: 0px 4px 0px 32px;
+        background-color: #202124;
+    }
+
+        .navbar ul{
+            display: flex;
+            padding-right: 15px;
+        }
+
+            .navbar li{
+                display: flex;
+                align-items: center;
+                height: 24px;
+                padding-left: 15px;
+                font-size: 13px;
+                list-style: none;
+            }
+
+        .navbaricon{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 48px;
+            height: 48px;
+            padding: 4px;
+        }
+
+            .navbar a{
+                width: 24px;
+                height: 24px;
+            }
+
+        .navbarperfil{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 48px;
+            height: 48px;
+            padding: 4px;
+        }
+
+            .navbarperfil img{
+                border-radius: 50%;
+            }
+
