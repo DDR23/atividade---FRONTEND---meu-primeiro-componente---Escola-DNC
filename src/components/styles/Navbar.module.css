@@ -27,7 +27,6 @@
                 height: 24px;
                 padding-left: 15px;
                 font-size: 13px;
-                list-style: none;
             }
 
         .navbaricon{
@@ -40,9 +39,24 @@
         }
 
             .navbar a{
-                width: 24px;
-                height: 24px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                text-decoration: none;
+                width: auto;
+                height: 40px;
+                color: #FFFFFF;
             }
+
+                .underline:hover{
+                    text-decoration: underline;
+                }
+
+                .backradius:hover{
+                    width: 40px;
+                    background-color: #303134;
+                    border-radius: 50%;
+                }
 
         .navbarperfil{
             display: flex;

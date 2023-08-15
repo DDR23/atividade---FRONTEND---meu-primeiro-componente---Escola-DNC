@@ -1,0 +1,32 @@
+.inputsearch{
+    margin-top: 30px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    width: 584px;
+    height: 46px;
+    border-radius: 25px;
+    background-color: transparent;
+    border: 1px solid #5f6368;
+    color: #696e73;
+}
+
+    .inputsearch:hover{
+        background-color: #303134;
+        border: 1px solid #303134;
+    }
+
+    .iconsearch{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 40px;
+        height: 46px;
+    }
+
+    .inputsearchinput{
+        border: none;
+        background-color: transparent;
+        width: 403px;
+        height: 46px;
+    }

@@ -1,0 +1,28 @@
+.googlemain{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: auto;
+    height: auto;
+    background-color: #202124;
+}
+
+    .googlelogobg{
+        display: flex;
+        justify-content: center;
+        align-items: end;
+        height: 207px;
+    }
+
+        .googlelogobg img{
+            height: 92px;
+        }
+
+    .googlesearch{
+        margin: auto;
+    }
+
+        .googlesearchbutton{
+            display: flex;
+            justify-content: center;
+        }

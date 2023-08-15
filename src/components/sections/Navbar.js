@@ -8,15 +8,15 @@ function Navbar(){
             <div className={styles.navbarcontent}>
                 <div>
                     <ul>
-                        <li>Gmail</li>
-                        <li>Imagens</li>
+                        <li><a className={styles.underline} href="#">Gmail</a></li>
+                        <li><a className={styles.underline} href="#">Imagens</a></li>
                     </ul>
                 </div>
                 <div className={styles.navbaricon}>
-                    <a href="#"><CgMenuGridO color="#FFFFFF" size={24}/></a>
+                    <a className={styles.backradius} href="#"><CgMenuGridO color="#FFFFFF" size={24}/></a>
                 </div>
                 <div className={styles.navbarperfil}>
-                    <img src={perfil}/>
+                    <a className={styles.backradius} href="#"><img src={perfil}/></a>
                 </div>
             </div>
         </div>

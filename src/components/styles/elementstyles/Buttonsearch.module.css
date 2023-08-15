@@ -1,0 +1,16 @@
+.buttonsearch button{
+    margin: 6px;
+    font-size: 14px;
+    width: 140px;
+    height: 36px;
+    border-radius: 4px;
+    background-color: #303134;
+    border: none;
+    color: #e8eaed;
+}
+
+    .buttonsearch button:hover{
+        box-shadow: 0 1px 3px rgba(23, 23, 23, 0.24);
+        border: 1px solid #5f6368;
+        cursor: pointer;
+    }
