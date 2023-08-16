@@ -1,8 +1,10 @@
 .inputsearch{
+    padding-left: 10px;
+    padding-right: 10px;
     margin-top: 30px;
     margin-bottom: 20px;
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     width: 584px;
     height: 46px;
     border-radius: 25px;
@@ -22,11 +24,19 @@
         align-items: center;
         width: 40px;
         height: 46px;
+        color: #696e73;
     }
+
+        .iconsearch a{
+            display: flex;
+            color: #696e73;
+        }
 
     .inputsearchinput{
         border: none;
         background-color: transparent;
         width: 403px;
         height: 46px;
+        font-size: 16px;
+        color: aliceblue;
     }
