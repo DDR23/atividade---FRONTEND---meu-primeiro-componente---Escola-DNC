@@ -27,7 +27,7 @@
         color: #696e73;
     }
 
-        .iconsearch a{
+        .iconsearch a, label{
             display: flex;
             color: #696e73;
         }
@@ -39,4 +39,5 @@
         height: 46px;
         font-size: 16px;
         color: aliceblue;
+        outline: none;
     }
