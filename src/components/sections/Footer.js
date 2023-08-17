@@ -8,15 +8,15 @@ function Footer(){
             </div>
             <div id={styles.bottom} className={styles.footerbar}>
                 <div className={styles.aside}>
-                    <p>Sobre</p>
-                    <p>Publicidade</p>
-                    <p>Negócios</p>
-                    <p>Como funciona a Pesquisa</p>
+                    <a href='#'><p>Sobre</p></a>
+                    <a href='#'><p>Publicidade</p></a>
+                    <a href='#'><p>Negócios</p></a>
+                    <a href='#'><p>Como funciona a Pesquisa</p></a>
                 </div>
                 <div className={styles.aside}>
-                    <p>Privacidade</p>
-                    <p>Termos</p>
-                    <p>Configurações</p>
+                    <a href='#'><p>Privacidade</p></a>
+                    <a href='#'><p>Termos</p></a>
+                    <a href='#'><p>Configurações</p></a>
                 </div>
             </div>
         </div>

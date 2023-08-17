@@ -33,6 +33,15 @@
         .aside p{
             padding: 15px;
         }
+
+        .aside a{
+            color: #9aa0a6;
+            text-decoration: none;
+        }
+
+            .aside a:hover{
+                text-decoration: underline;
+            }
     
     #bottom{
         height: 46px;
