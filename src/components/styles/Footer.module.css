@@ -1,0 +1,41 @@
+.footer{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+    .footerbar{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        text-align: justify;
+        height: 48px;
+        background-color: #171717;
+        color: #9aa0a6;
+        font-size: 15px;
+    }
+
+        #top{
+            border-bottom: 1px solid #3c4043;
+        }
+
+            #top p{
+                padding-left: 30px;
+            }
+
+    .aside{
+        display: flex;
+    }
+
+        .aside p{
+            padding: 15px;
+        }
+    
+    #bottom{
+        height: 46px;
+        padding: 0 20px;
+        font-size: 14px;
+    }
