@@ -1,7 +1,18 @@
-# Meu Primeiro Componente - Escola DNC
+# atividade---FRONTEND---meu-primeiro-componente---Escola-DNC
 
-Essa foi uma atividade proposta em aula
+## Sobre o projeto
 O objetivo desse desafio é recriar a pagina principal do google, dando meus primeiros passos na criação de componentes react, estruturação de pastas e estilizção com module.css
 
-Link:
-https://meu-primeiro-componente-escola-dnc.vercel.app/
+Projeto hospedado em: https://meu-primeiro-componente-escola-dnc.vercel.app/
+
+## Comandos para rodar o projeto
+
+```bash
+  npm i
+```
+```bash
+  npm run dev
+```
+
+## Screenshots
+![App Screenshot](/public/picture_01.png)
